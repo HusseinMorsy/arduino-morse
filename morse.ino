@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  morse("oktay");
+  morse("esma");
   delay(3000);
 }
 void morse(String str)
@@ -24,8 +24,14 @@ void morse(String str)
       code("-.-."); break;
       case 'd':
       code("-.."); break;
+      case 'e':
+      code("."); break;
+      case 'm':
+      code("--"); break;
       case 'o':
       code("---"); break;
+      case 's':
+      code("..."); break;
       case 'k':
       code("-.-"); break;
       case 't':
